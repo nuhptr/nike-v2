@@ -4,7 +4,7 @@
 
 This is a Nike Tailwindcss V2 project.
 
-## Installation
+## Dependencies
 
 ```bash
 - npm create vite@latest my-project -- --template react
