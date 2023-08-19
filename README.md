@@ -1,6 +1,8 @@
 # Nike Tailwindcss V2
 
-<!-- timeline : 1:00:32 -->
+<!-- timeline : 1: -->
+
+max-lg means the condition when the screen is not larger than lg (1024px) the style will be applied.
 
 ## Description
 
