@@ -2,22 +2,23 @@ import {
    CustomerReviews,
    Footer,
    Hero,
-   PopularProducts,
+   PopularProduct,
    Services,
    SpecialOffers,
    Subscribe,
    SuperQuality,
 } from './sections';
+import { Nav } from './components';
 
 export default function App() {
    return (
       <main className='relative'>
-         Nav
+         <Nav />
          <section className='xl:padding-1 wide:padding-r padding-b'>
             <Hero />
          </section>
          <section className='padding'>
-            <PopularProducts />
+            <PopularProduct />
          </section>
          <section className='padding'>
             <SuperQuality />
