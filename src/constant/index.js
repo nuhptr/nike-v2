@@ -1,4 +1,11 @@
-import { facebook, instagram, shieldTick, support, truckFast, twitter } from '../assets/icons';
+import {
+   facebook,
+   instagram,
+   shieldTick,
+   support,
+   truckFast,
+   twitter,
+} from '../assets/icons';
 import {
    bigShoe1,
    bigShoe2,
@@ -23,14 +30,17 @@ export const navLinks = [
 
 export const shoes = [
    {
+      id: 1,
       thumbnail: thumbnailShoe1,
       bigShoe: bigShoe1,
    },
    {
+      id: 2,
       thumbnail: thumbnailShoe2,
       bigShoe: bigShoe2,
    },
    {
+      id: 3,
       thumbnail: thumbnailShoe3,
       bigShoe: bigShoe3,
    },
@@ -88,13 +98,15 @@ export const reviews = [
       imgURL: customer1,
       customerName: 'Morich Brown',
       rating: 4.5,
-      feedback: 'The attention to detail and the quality of the product exceeded my expectations. Highly recommended!',
+      feedback:
+         'The attention to detail and the quality of the product exceeded my expectations. Highly recommended!',
    },
    {
       imgURL: customer2,
       customerName: 'Lota Mongeskar',
       rating: 4.5,
-      feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!",
+      feedback:
+         "The product not only met but exceeded my expectations. I'll definitely be a returning customer!",
    },
 ];
 
