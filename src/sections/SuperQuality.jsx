@@ -1,6 +1,6 @@
 import { arrowRight } from '../assets/icons';
 import { shoe8 } from '../assets/images';
-import { Buttton } from '../components';
+import { Button } from '../components';
 
 export default function SuperQuality() {
    return (
@@ -21,7 +21,7 @@ export default function SuperQuality() {
                Our dedication to detail and excellence ensures your satisfaction
             </p>
             <div className='mt-11'>
-               <Buttton label='Shop Now' iconUrl={arrowRight} />
+               <Button label='Shop Now' iconUrl={arrowRight} />
             </div>
          </div>
 

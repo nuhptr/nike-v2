@@ -1,6 +1,6 @@
 import { arrowRight } from '../assets/icons';
 import { offer } from '../assets/images';
-import { Buttton } from '../components';
+import { Button } from '../components';
 
 export default function SpecialOffers() {
    return (
@@ -30,8 +30,8 @@ export default function SpecialOffers() {
                us is nothing short of exceptional.
             </p>
             <div className='flex flex-wrap gap-4 mt-11'>
-               <Buttton label='View details' iconUrl={arrowRight} />
-               <Buttton
+               <Button label='View details' iconUrl={arrowRight} />
+               <Button
                   label='Learn More'
                   backgroundColor='bg-white'
                   borderColor='border-slate-gray'

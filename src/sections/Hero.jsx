@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 import { arrowRight } from '../assets/icons';
 import { bigShoe1 } from '../assets/images';
-import { Buttton, ShoeCard } from '../components';
+import { Button, ShoeCard } from '../components';
 import { shoes, statistics } from '../constant';
 
 export default function Hero() {
@@ -27,13 +27,10 @@ export default function Hero() {
                Shoes
             </h1>
             <p className='mt-6 text-lg leading-8 font-montserrat text-slate-gray mb-14 sm:max-w-md'>
-               Discover stylish Nike arrivals, quality
-               comfort, and innovation for your active life.
+               Discover stylish Nike arrivals, quality comfort, and innovation
+               for your active life.
             </p>
-            <Buttton
-               label='Show now'
-               iconUrl={arrowRight}
-            />
+            <Button label='Show now' iconUrl={arrowRight} />
 
             {/* statistic */}
             <div className='flex flex-wrap items-start justify-start w-full gap-16 mt-20'>
@@ -64,9 +61,7 @@ export default function Hero() {
                   <div key={shoes.id}>
                      <ShoeCard
                         shoes={shoes}
-                        changeBigShoeImg={(shoe) =>
-                           setbigShoeImg(shoe)
-                        }
+                        changeBigShoeImg={(shoe) => setbigShoeImg(shoe)}
                         bigShoeImg={bigShoeImg}
                      />
                   </div>
