@@ -1,4 +1,4 @@
-export default function Buttton({
+export default function Button({
    label,
    iconUrl,
    backgroundColor,
