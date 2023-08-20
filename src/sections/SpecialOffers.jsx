@@ -1,3 +1,4 @@
+import { arrowRight } from '../assets/icons';
 import { offer } from '../assets/images';
 import { Buttton } from '../components';
 
@@ -28,8 +29,14 @@ export default function SpecialOffers() {
                desires, surpassing the loftiest expectations. Your journey with
                us is nothing short of exceptional.
             </p>
-            <div className='mt-11'>
-               <Buttton label='View details' />
+            <div className='flex flex-wrap gap-4 mt-11'>
+               <Buttton label='View details' iconUrl={arrowRight} />
+               <Buttton
+                  label='Learn More'
+                  backgroundColor='bg-white'
+                  borderColor='border-slate-gray'
+                  textColor='text-slate-gray'
+               />
             </div>
          </div>
       </section>

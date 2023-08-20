@@ -1,3 +1,3 @@
 export default function CustomerReviews() {
-   return <div>Customer Reviews</div>;
+   return <section>Customer Reviews</section>;
 }

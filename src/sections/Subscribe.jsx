@@ -1,3 +1,3 @@
 export default function Subscribe() {
-   return <div>Subscribe</div>;
+   return <section>Subscribe</section>;
 }
