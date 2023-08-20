@@ -7,7 +7,12 @@ export default function Buttton({
    fullWidth,
 }) {
    return (
-      <button className='flex items-center justify-center gap-2 py-4 text-lg leading-none text-white border rounded-full px-7 font-montserrat bg-coral-red border-coral-red hover:bg-orange-600'>
+      <button
+         className={`flex items-center justify-center gap-2 px-7 py-4 text-lg leading-none border rounded-full font-montserrat hover:bg-orange-600 ${
+            backgroundColor
+               ? `${backgroundColor} ${textColor} ${borderColor}`
+               : `bg-coral-red text-white border-coral-red`
+         } ${fullWidth && 'w-full'}`}>
          {label}
          {iconUrl && (
             <img
