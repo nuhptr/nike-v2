@@ -124,37 +124,40 @@ export const reviews = [
 
 export const footerLinks = [
    {
+      id: 1,
       title: 'Products',
       links: [
-         { name: 'Air Force 1', link: '/' },
-         { name: 'Air Max 1', link: '/' },
-         { name: 'Air Jordan 1', link: '/' },
-         { name: 'Air Force 2', link: '/' },
-         { name: 'Nike Waffle Racer', link: '/' },
-         { name: 'Nike Cortez', link: '/' },
+         { id: 1, name: 'Air Force 1', link: '/' },
+         { id: 2, name: 'Air Max 1', link: '/' },
+         { id: 3, name: 'Air Jordan 1', link: '/' },
+         { id: 4, name: 'Air Force 2', link: '/' },
+         { id: 5, name: 'Nike Waffle Racer', link: '/' },
+         { id: 6, name: 'Nike Cortez', link: '/' },
       ],
    },
    {
+      id: 2,
       title: 'Help',
       links: [
-         { name: 'About us', link: '/' },
-         { name: 'FAQs', link: '/' },
-         { name: 'How it works', link: '/' },
-         { name: 'Privacy policy', link: '/' },
-         { name: 'Payment policy', link: '/' },
+         { id: 1, name: 'About us', link: '/' },
+         { id: 2, name: 'FAQs', link: '/' },
+         { id: 3, name: 'How it works', link: '/' },
+         { id: 4, name: 'Privacy policy', link: '/' },
+         { id: 5, name: 'Payment policy', link: '/' },
       ],
    },
    {
+      id: 3,
       title: 'Get in touch',
       links: [
-         { name: 'customer@nike.com', link: 'mailto:customer@nike.com' },
-         { name: '+92554862354', link: 'tel:+92554862354' },
+         { id: 1, name: 'customer@nike.com', link: 'mailto:customer@nike.com' },
+         { id: 2, name: '+92554862354', link: 'tel:+92554862354' },
       ],
    },
 ];
 
 export const socialMedia = [
-   { src: facebook, alt: 'facebook logo' },
-   { src: twitter, alt: 'twitter logo' },
-   { src: instagram, alt: 'instagram logo' },
+   { id: 1, src: facebook, alt: 'facebook logo' },
+   { id: 2, src: twitter, alt: 'twitter logo' },
+   { id: 3, src: instagram, alt: 'instagram logo' },
 ];
