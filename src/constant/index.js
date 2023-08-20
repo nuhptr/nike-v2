@@ -84,24 +84,28 @@ export const services = [
       id: 1,
       imgURL: truckFast,
       label: 'Free shipping',
-      subtext: 'Enjoy seamless shopping with our complimentary shipping service.',
+      subtext:
+         'Enjoy seamless shopping with our complimentary shipping service.',
    },
    {
       id: 2,
       imgURL: shieldTick,
       label: 'Secure Payment',
-      subtext: 'Experience worry-free transactions with our secure payment options.',
+      subtext:
+         'Experience worry-free transactions with our secure payment options.',
    },
    {
       id: 3,
       imgURL: support,
       label: 'Love to help you',
-      subtext: 'Our dedicated team is here to assist you every step of the way.',
+      subtext:
+         'Our dedicated team is here to assist you every step of the way.',
    },
 ];
 
 export const reviews = [
    {
+      id: 1,
       imgURL: customer1,
       customerName: 'Morich Brown',
       rating: 4.5,
@@ -109,6 +113,7 @@ export const reviews = [
          'The attention to detail and the quality of the product exceeded my expectations. Highly recommended!',
    },
    {
+      id: 2,
       imgURL: customer2,
       customerName: 'Lota Mongeskar',
       rating: 4.5,
