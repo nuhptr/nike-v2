@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
-import arrowRight from '/public/icons/arrow-right.svg'
-import bigShoe1 from '/public/images/big-shoe1.png'
+import arrowRight from '/icons/arrow-right.svg'
+import bigShoe1 from '/images/big-shoe1.png'
 
 import { Button, ShoeCard } from '../components'
 import { shoes, statistics } from '../constant'

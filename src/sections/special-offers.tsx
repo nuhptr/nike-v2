@@ -1,5 +1,5 @@
-import arrowRight from '/public/icons/arrow-right.svg'
-import offer from '/public/images/offer.svg'
+import arrowRight from '/icons/arrow-right.svg'
+import offer from '/images/offer.svg'
 
 import { Button } from '../components'
 
