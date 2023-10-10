@@ -1,4 +1,4 @@
-# React + TypeScript + Vite
+# Nike Tailwindcss
 
 ![Nike Tailwindcss Image](https://github.com/nuhptr/tailwindcss-nike-v2/assets/50306963/2dc3ec4a-a23f-4b0f-8b7e-e9d1daa1495a)
 
